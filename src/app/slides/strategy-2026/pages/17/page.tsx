@@ -14,7 +14,7 @@ export default function Slide17() {
           PDF → HTML<br />렌더링
         </h1>
         <p className="section-subtitle animate-slide-in stagger-2">
-          문서 보안 및 감사 기능
+          SDK 사업화 전략
         </p>
         <div className="section-accent-bar track-3 animate-slide-in stagger-3" />
       </div>

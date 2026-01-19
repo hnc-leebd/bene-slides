@@ -1,6 +1,6 @@
 import '../../slides.css';
 import { SlideLayout } from '../../components/SlideLayout';
-import { AlertTriangle, Check, Minus, Wrench, Shield } from 'lucide-react';
+import { AlertTriangle, Check, Minus, Wrench } from 'lucide-react';
 
 const TOTAL_PAGES = 20;
 
@@ -78,7 +78,7 @@ export default function Slide7() {
                         </>
                       ) : (
                         <>
-                          <Shield size={14} color="var(--status-positive)" />
+                          <Check size={14} color="var(--status-positive)" strokeWidth={3} />
                           <span style={{ fontSize: '0.75rem', color: 'var(--status-positive)' }}>SLA 보장</span>
                         </>
                       )}
