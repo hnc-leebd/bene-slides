@@ -2,7 +2,7 @@ import '../../slides.css';
 import { SlideLayout } from '../../components/SlideLayout';
 import { AlertCircle } from 'lucide-react';
 
-const TOTAL_PAGES = 24;
+const TOTAL_PAGES = 20;
 
 export default function Slide3() {
   return (

@@ -2,7 +2,7 @@ import '../../slides.css';
 import { SlideLayout } from '../../components/SlideLayout';
 import { TrendingUp, DollarSign } from 'lucide-react';
 
-const TOTAL_PAGES = 24;
+const TOTAL_PAGES = 20;
 
 // 시장 규모 색상 (Blue 계열) - 밝기로 기관 구분
 const sizeColors = [

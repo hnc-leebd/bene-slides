@@ -1,64 +1,57 @@
 import '../../slides.css';
 import { SlideLayout } from '../../components/SlideLayout';
 
-const TOTAL_PAGES = 24;
+const TOTAL_PAGES = 20;
+
+const links = [
+  'https://www.grandviewresearch.com/industry-analysis/intelligent-document-processing-market-report',
+  'https://www.fortunebusinessinsights.com/intelligent-document-processing-market-108590',
+  'https://www.precedenceresearch.com/intelligent-document-processing-market',
+  'https://www.grandviewresearch.com/industry-analysis/digital-accessibility-software-market-report',
+  'https://dataintelo.com/report/digital-accessibility-remediation-platform-market',
+  'https://www.marketgrowthreports.com/market-reports/digital-accessibility-software-market-105034',
+  'https://accessible-eu-centre.ec.europa.eu/content-corner/news/eaa-comes-effect-june-2025-are-you-ready-2025-01-31_en',
+  'https://www.levelaccess.com/compliance-overview/european-accessibility-act-eaa/',
+  'https://abilitynet.org.uk/resources/european-accessibility-act',
+  'https://github.com/docling-project/docling',
+  'https://www.locklizard.com/pdf-digital-rights-management/',
+  'https://itextpdf.com/solutions/universal-accessibility-pdfua',
+];
 
 export default function Slide20() {
   return (
-    <SlideLayout currentPage={20} totalPages={TOTAL_PAGES} track={3}>
+    <SlideLayout currentPage={20} totalPages={TOTAL_PAGES}>
       <div className="slide-main">
         <div className="slide-header-area">
-          <p className="slide-section-label animate-fade-in">Track 3 · Approaches</p>
+          <p className="slide-section-label animate-fade-in">References</p>
           <h1 className="slide-header animate-slide-in stagger-1">
-            접근 방식 비교
+            데이터 출처
           </h1>
-          <p className="slide-subheader animate-slide-in stagger-2">
-            3가지 전략 옵션
-          </p>
         </div>
 
-        <div className="slide-content-area" style={{ width: 888, margin: '0 auto' }}>
-          <div className="animate-slide-in stagger-3">
-          <table className="slide-table">
-            <thead>
-              <tr>
-                <th style={{ width: '20%' }}>옵션</th>
-                <th style={{ width: '30%' }}>추가 투자 항목</th>
-                <th style={{ width: '15%', textAlign: 'center' }}>규모</th>
-                <th style={{ width: '17.5%' }}>장점</th>
-                <th style={{ width: '17.5%' }}>단점</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style={{ opacity: 0.7 }}>
-                <td style={{ fontWeight: 600 }}>옵션 1<br /><span style={{ fontSize: '0.8125rem', fontWeight: 400, color: 'var(--slide-text-tertiary)' }}>SI 통합</span></td>
-                <td>SI 영업/구축 조직<br />플랫폼 + DRM 개발</td>
-                <td style={{ textAlign: 'center' }}>
-                  <span className="slide-badge slide-badge-warning">5명+</span>
-                </td>
-                <td style={{ fontSize: '0.875rem' }}>높은 단가, lock-in</td>
-                <td style={{ fontSize: '0.875rem', color: 'var(--slide-text-tertiary)' }}>긴 영업 사이클</td>
-              </tr>
-              <tr style={{ opacity: 0.7 }}>
-                <td style={{ fontWeight: 600 }}>옵션 2<br /><span style={{ fontSize: '0.8125rem', fontWeight: 400, color: 'var(--slide-text-tertiary)' }}>단독 SaaS</span></td>
-                <td>플랫폼 개발<br />운영/CS 조직</td>
-                <td style={{ textAlign: 'center' }}>
-                  <span className="slide-badge slide-badge-warning">3명+</span>
-                </td>
-                <td style={{ fontSize: '0.875rem' }}>빠른 출시, SMB 타겟</td>
-                <td style={{ fontSize: '0.875rem', color: 'var(--slide-text-tertiary)' }}>지속 운영 비용</td>
-              </tr>
-              <tr>
-                <td style={{ fontWeight: 600 }}>옵션 3<br /><span style={{ fontSize: '0.8125rem', fontWeight: 400, color: 'var(--slide-text-tertiary)' }}>SDK B2B2B</span></td>
-                <td>현행 유지</td>
-                <td style={{ textAlign: 'center' }}>
-                  <span className="slide-badge slide-badge-success">현행 유지</span>
-                </td>
-                <td style={{ fontSize: '0.875rem' }}>오픈코어 모델 적합<br />SDK 레이어 집중</td>
-                <td style={{ fontSize: '0.875rem', color: 'var(--slide-text-tertiary)' }}>낮은 개별 단가<br />고객사 기술력 필요</td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="slide-content-area">
+          <div className="animate-slide-in stagger-2" style={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 8,
+          fontFamily: 'var(--slide-font-mono)',
+          fontSize: '0.75rem',
+          lineHeight: 1.6,
+        }}>
+          {links.map((url) => (
+            <a
+              key={url}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: 'var(--slide-text-primary)',
+                textDecoration: 'none',
+              }}
+            >
+              {url}
+            </a>
+          ))}
         </div>
         </div>
       </div>

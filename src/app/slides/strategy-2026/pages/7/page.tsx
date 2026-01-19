@@ -2,7 +2,7 @@ import '../../slides.css';
 import { SlideLayout } from '../../components/SlideLayout';
 import { AlertTriangle, Check, Minus, Wrench, Shield } from 'lucide-react';
 
-const TOTAL_PAGES = 24;
+const TOTAL_PAGES = 20;
 
 // 지원 여부 아이콘 컴포넌트
 function SupportIcon({ supported }: { supported: boolean }) {

@@ -3,7 +3,7 @@ import { SlideLayout } from '../../components/SlideLayout';
 import { TrendingUp, Building2, Scan, Table2, AlertTriangle } from 'lucide-react';
 import Image from 'next/image';
 
-const TOTAL_PAGES = 24;
+const TOTAL_PAGES = 20;
 
 export default function Slide6() {
   return (

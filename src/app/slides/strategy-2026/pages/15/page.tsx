@@ -2,7 +2,7 @@ import '../../slides.css';
 import { SlideLayout } from '../../components/SlideLayout';
 import { CheckCircle, AlertTriangle, Link } from 'lucide-react';
 
-const TOTAL_PAGES = 24;
+const TOTAL_PAGES = 20;
 
 export default function Slide15() {
   return (

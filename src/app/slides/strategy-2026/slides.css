@@ -48,9 +48,9 @@
 
   /* Text Hierarchy */
   --slide-text-primary: #f8f8fa;
-  --slide-text-secondary: #9898a6;
-  --slide-text-tertiary: #6b6b7a;
-  --slide-text-muted: #4a4a58;
+  --slide-text-secondary: #c8c8d4;
+  --slide-text-tertiary: #a0a0b0;
+  --slide-text-muted: #808090;
 
   /* Borders & Dividers */
   --slide-border-subtle: rgba(255, 255, 255, 0.06);

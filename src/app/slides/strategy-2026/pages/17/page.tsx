@@ -1,7 +1,7 @@
 import '../../slides.css';
 import { SlideLayout } from '../../components/SlideLayout';
 
-const TOTAL_PAGES = 24;
+const TOTAL_PAGES = 20;
 
 export default function Slide17() {
   return (
