@@ -12,7 +12,7 @@ const swotData = [
     bgColor: 'rgba(34, 197, 94, 0.15)',
     items: [
       { text: 'veraPDF 파트너십 확보', highlight: true },
-      { text: '웹앱 프론트엔드 개발 역량', highlight: false },
+      { text: '웹서비스 개발 역량', highlight: false },
       { text: 'PDF 파싱 기술 보유', highlight: false }
     ]
   },
