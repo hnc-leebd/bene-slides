@@ -42,6 +42,7 @@ function getPresentationTitle(slug: string): string {
     "pdfua": "PDF-UA-Strategy",
     "ax-guide": "Accessibility-Guide",
     "strategy-2026": "Strategy-2026",
+    "strategy-plan": "Strategy-Plan-2026",
   };
   return titles[slug] || slug;
 }

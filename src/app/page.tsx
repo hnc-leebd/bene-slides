@@ -2,6 +2,16 @@ import Link from 'next/link';
 
 const presentations = [
   {
+    id: 'strategy-plan',
+    title: '2026 전략 방향',
+    subtitle: '트랙 + 라이선스',
+    description: '트랙 우선순위 + 오픈소스 라이선스 전략',
+    href: '/slides/strategy-plan/pages/1',
+    slides: 34,
+    accent: 'violet',
+    year: '2026',
+  },
+  {
     id: 'strategy-2026',
     title: '2026 전략 방향',
     subtitle: '시장 조사',
