@@ -143,34 +143,6 @@ export default function Slide3() {
             })}
           </div>
 
-          {/* Positioning Chart */}
-          <div className="animate-slide-in stagger-4" style={{
-            marginTop: 24,
-            padding: '20px 24px',
-            background: 'var(--slide-bg-tertiary)',
-            borderRadius: 12
-          }}>
-            <div style={{
-              fontFamily: 'var(--slide-font-mono)',
-              fontSize: '0.8125rem',
-              color: 'var(--slide-text-tertiary)',
-              marginBottom: 12
-            }}>트랙별 포지셔닝: 시장 규모 vs 경쟁 강도</div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                <div style={{ width: 12, height: 12, borderRadius: 3, background: 'var(--track-1-gradient)' }} />
-                <span style={{ fontSize: '0.875rem', color: 'var(--slide-text-secondary)' }}>트랙 1: 대형 시장, 치열한 경쟁</span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                <div style={{ width: 12, height: 12, borderRadius: 3, background: 'var(--track-2-gradient)' }} />
-                <span style={{ fontSize: '0.875rem', color: 'var(--slide-text-secondary)' }}>트랙 2: 규제 드라이버, 기술 보유 업체 제한</span>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                <div style={{ width: 12, height: 12, borderRadius: 3, background: 'var(--track-3-gradient)' }} />
-                <span style={{ fontSize: '0.875rem', color: 'var(--slide-text-secondary)' }}>트랙 3: 파트너십 기반, 빠른 실행</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </SlideLayout>

@@ -11,10 +11,10 @@ export default function Slide2() {
         <div className="slide-header-area">
           <p className="slide-section-label animate-fade-in">Overview</p>
           <h1 className="slide-header animate-slide-in stagger-1">
-            전략 방향 및 경영진 고려사항
+            2026 핵심 목표와 주제
           </h1>
           <p className="slide-subheader animate-slide-in stagger-2">
-            2026 핵심 목표와 주요 주제
+            전략 방향 및 고려사항
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function Slide2() {
                 color: 'var(--track-1-primary)',
                 marginBottom: 20
               }}>
-                전략 방향
+                2026 핵심 목표
               </h3>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>

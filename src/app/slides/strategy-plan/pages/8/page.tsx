@@ -5,9 +5,9 @@ import { Brain, FileText, Languages, Clock, Search, Cpu, Cloud, Shield } from 'l
 const TOTAL_PAGES = 33;
 
 const docAIFeatures = [
-  { icon: Cpu, req: 'Hancom AI Model', spec: 'OCR/표/차트/수식', target: 'AI 조직 연계' },
+  { icon: Cpu, req: 'Hancom AI Model', spec: 'OCR/표/차트/수식', target: 'AI 기술 연계' },
   { icon: Cloud, req: 'Hancom AI Service', spec: '한컴피디아/한컴어시스턴트 등', target: '기존 서비스 연동' },
-  { icon: Shield, req: '감사 추적', spec: 'Audit Trail, 처리 이력 로깅', target: '금융/법률' },
+  { icon: Shield, req: '감사 추적', spec: 'Audit Trail, 처리 이력 로깅', target: '엔터프라이즈' },
 ];
 
 const ocrRequirements = [
